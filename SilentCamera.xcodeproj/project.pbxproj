@@ -11,6 +11,7 @@
 		2AA057C5285816A900AB9175 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA057C4285816A900AB9175 /* ContentView.swift */; };
 		2AA057C7285816AC00AB9175 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AA057C6285816AC00AB9175 /* Assets.xcassets */; };
 		2AA057CA285816AC00AB9175 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AA057C9285816AC00AB9175 /* Preview Assets.xcassets */; };
+		2AF8FDCF2858174800DE5E80 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF8FDCE2858174800DE5E80 /* CameraView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		2AA057C4285816A900AB9175 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2AA057C6285816AC00AB9175 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2AA057C9285816AC00AB9175 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2AF8FDCE2858174800DE5E80 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				2AA057C2285816A900AB9175 /* SilentCameraApp.swift */,
 				2AA057C4285816A900AB9175 /* ContentView.swift */,
+				2AF8FDCE2858174800DE5E80 /* CameraView.swift */,
 				2AA057C6285816AC00AB9175 /* Assets.xcassets */,
 				2AA057C8285816AC00AB9175 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2AF8FDCF2858174800DE5E80 /* CameraView.swift in Sources */,
 				2AA057C5285816A900AB9175 /* ContentView.swift in Sources */,
 				2AA057C3285816A900AB9175 /* SilentCameraApp.swift in Sources */,
 			);
@@ -267,9 +271,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SilentCamera/Preview Content\"";
-				DEVELOPMENT_TEAM = NS2U56N5HL;
+				DEVELOPMENT_TEAM = 555Q448RLS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "カメラ使うよー";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -296,9 +301,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SilentCamera/Preview Content\"";
-				DEVELOPMENT_TEAM = NS2U56N5HL;
+				DEVELOPMENT_TEAM = 555Q448RLS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "カメラ使うよー";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
