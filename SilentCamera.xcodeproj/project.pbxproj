@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A66BEEE2861629E0033DAEC /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A66BEED2861629E0033DAEC /* ViewModel.swift */; };
 		2AA057C3285816A900AB9175 /* SilentCameraApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA057C2285816A900AB9175 /* SilentCameraApp.swift */; };
 		2AA057C5285816A900AB9175 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA057C4285816A900AB9175 /* ContentView.swift */; };
 		2AA057C7285816AC00AB9175 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AA057C6285816AC00AB9175 /* Assets.xcassets */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2A66BEED2861629E0033DAEC /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		2AA057BF285816A900AB9175 /* SilentCamera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SilentCamera.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AA057C2285816A900AB9175 /* SilentCameraApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SilentCameraApp.swift; sourceTree = "<group>"; };
 		2AA057C4285816A900AB9175 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 				2AA057C2285816A900AB9175 /* SilentCameraApp.swift */,
 				2AA057C4285816A900AB9175 /* ContentView.swift */,
 				2AF8FDCE2858174800DE5E80 /* CameraView.swift */,
+				2A66BEED2861629E0033DAEC /* ViewModel.swift */,
 				2AA057C6285816AC00AB9175 /* Assets.xcassets */,
 				2AA057C8285816AC00AB9175 /* Preview Content */,
 			);
@@ -142,6 +145,7 @@
 			files = (
 				2AF8FDCF2858174800DE5E80 /* CameraView.swift in Sources */,
 				2AA057C5285816A900AB9175 /* ContentView.swift in Sources */,
+				2A66BEEE2861629E0033DAEC /* ViewModel.swift in Sources */,
 				2AA057C3285816A900AB9175 /* SilentCameraApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -278,8 +282,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,8 +312,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
