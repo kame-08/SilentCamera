@@ -10,8 +10,7 @@ import SwiftUI
 import Photos
 
 class CameraView: UIView{
-    
-    var viewModel = ViewModel()
+    fileprivate var viewModel: ViewModel!
     
     //MARK: -Layerの設定
     
@@ -40,9 +39,11 @@ class CameraView: UIView{
 //SwiftUIで使うためのRepresent
 struct CameraViewRepresent: UIViewRepresentable {
     typealias UIViewType = CameraView
+    let viewModel: ViewModel!
     
     func makeUIView(context: Context) -> CameraView {
         let view = CameraView()
+        view.viewModel = viewModel
         view.viewModel.setupDevice()
         view.setupLayer()
         view.viewModel.run()

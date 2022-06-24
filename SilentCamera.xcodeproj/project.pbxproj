@@ -278,7 +278,9 @@
 				DEVELOPMENT_TEAM = 555Q448RLS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SilentCamera/Info.plist;
 				INFOPLIST_KEY_NSCameraUsageDescription = "カメラ使うよー";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "フォトライブラリー使うよー";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -308,7 +310,9 @@
 				DEVELOPMENT_TEAM = 555Q448RLS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SilentCamera/Info.plist;
 				INFOPLIST_KEY_NSCameraUsageDescription = "カメラ使うよー";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "フォトライブラリー使うよー";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
